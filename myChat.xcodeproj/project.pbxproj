@@ -14,6 +14,7 @@
 		430B93D420ECDF88002E1A2C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 430B93D320ECDF88002E1A2C /* Assets.xcassets */; };
 		430B93D720ECDF88002E1A2C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 430B93D520ECDF88002E1A2C /* LaunchScreen.storyboard */; };
 		430B93E020ECEA1F002E1A2C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 430B93DF20ECEA1F002E1A2C /* GoogleService-Info.plist */; };
+		430B93E220ECEB75002E1A2C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430B93E120ECEB75002E1A2C /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		430B93D820ECDF88002E1A2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		430B93DE20ECE375002E1A2C /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
 		430B93DF20ECEA1F002E1A2C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		430B93E120ECEB75002E1A2C /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		9707F80807F571D06AEE72C2 /* Pods_myChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_myChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6F9E2F3B6F8A386C3D09215 /* Pods-myChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myChat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-myChat/Pods-myChat.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -66,6 +68,7 @@
 		430B93CB20ECDF86002E1A2C /* myChat */ = {
 			isa = PBXGroup;
 			children = (
+				430B93E120ECEB75002E1A2C /* Constants.swift */,
 				430B93CC20ECDF86002E1A2C /* AppDelegate.swift */,
 				430B93CE20ECDF86002E1A2C /* MyChatVC.swift */,
 				430B93D020ECDF86002E1A2C /* Main.storyboard */,
@@ -218,6 +221,7 @@
 			files = (
 				430B93CF20ECDF86002E1A2C /* MyChatVC.swift in Sources */,
 				430B93CD20ECDF86002E1A2C /* AppDelegate.swift in Sources */,
+				430B93E220ECEB75002E1A2C /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
